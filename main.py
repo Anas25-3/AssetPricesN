@@ -6,7 +6,7 @@ from os import system
 import pushover
 
 base_url = "https://api.binance.com/api/v3/ticker/price?symbol="
-# Lägg till dina Pushover credentials här
+
 user_key = "uppfzzq1yx12a3j2rga1z9r1vai5bh"
 api_token = "a4bwz8nyw6n3u5reqwx4z483bua9de"
 
