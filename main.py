@@ -36,10 +36,6 @@ def send_notification(message):
     except requests.exceptions.RequestException as e:
         print(f"Error sending notification: {e}")
 
-# Test message (Optional, you can remove this once confirmed working)
-send_notification("Test message: Verifying Pushover integration.")
-exit()  # Exit here after test message is confirmed
-
 # Define currency pair, target price, and direction (no input needed)
 currency = "LTCUSDC"  # Set your currency pair here
 cprice = 108.82  # Set your target price here
